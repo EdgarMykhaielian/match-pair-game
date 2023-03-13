@@ -15,9 +15,11 @@
 </head>
 <body>
     <form>
-        <label>Row Count: <b>4</b><input type="range" id="row-count" min="2" max="10" value="4"></label>
-        <label>Column Count: <b>4</b><input type="range" id="column-count" min="2" max="10" value="4"></label>
-        <button id="start-btn">Start Game!</button>
+        <div class="wrapper">
+            <label>Rows: <b>4</b><input type="range" id="row-count" min="2" max="10" value="4"></label>
+            <label>Columns: <b>4</b><input type="range" id="column-count" min="2" max="10" value="4"></label>
+        </div>
+        <button id="start-btn" class="button-71">Start</button>
     </form>
     <div class="endgame" hidden>
         <h2>You won!</h2>
